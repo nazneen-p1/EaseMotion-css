@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* form */
+.form {
+  background: #222;
+  padding: 30px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+  color: white;
+}
+
+/* inputs */
+input, textarea {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+
+/* button */
+button {
+  margin-top: 15px;
+  padding: 10px;
+  border: none;
+  background: #00c853;
+  cursor: pointer;
+}
